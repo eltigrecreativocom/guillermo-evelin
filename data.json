@@ -89,12 +89,14 @@
     ],
     "vestimenta": {
         "tipo": "Elegante",
+        "damas": "Vestido elegante (no blanco ni rojo)",
+        "caballeros": "Traje formal",
         "restriccionColores": "Blanco y rojo restringidos"
     },
     "asistencia": {
         "sinNinos": {
             "titulo": "SOLO ADULTOS",
-            "mensaje": "Amamos a los niños pero en esta ocasión especial la celebración será solo para adultos."
+            "mensaje": "Amamos a los niños, pero en esta ocasión especial la celebración será solo para adultos."
         }
     },
     "regalos": {

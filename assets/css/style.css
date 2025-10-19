@@ -1,6 +1,6 @@
 :root {
     /* Paleta principal (fácil de sobrescribir) */
-    --color-primary: #0748a1;
+    --color-primary: #28446b;
     /* color principal de títulos/acento */
     --color-primary-600: #0748a1;
     --color-secondary: #466aa1;
@@ -543,7 +543,7 @@ p {
     justify-items: center;
 }
 
-.asistencia article {
+.asistencia .article {
     max-width: 200px;
     text-align: center;
 }
@@ -847,6 +847,71 @@ p {
     margin-bottom: 10px;
 }
 
+/* === Estilos para el artículo de regalos (SOCIO) === */
+.articulo-regalos {
+    background: var(--color-muted);
+    border-radius: 16px;
+    box-shadow: 0 4px 16px var(--shadow-color);
+    padding: 24px 18px;
+    margin: 30px auto;
+    text-align: center;
+    border: 1px solid var(--color-border);
+}
+
+.articulo-regalos h3 {
+    color: var(--color-primary);
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-family: 'Great Vibes', cursive;
+}
+
+.articulo-regalos p {
+    color: var(--color-text);
+    font-size: 1rem;
+    margin-bottom: 18px;
+}
+
+.articulo-regalos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.articulo-regalos li {
+    background: var(--color-accent);
+    margin-bottom: 10px;
+    border-radius: 8px;
+    padding: 10px 12px;
+    box-shadow: 0 2px 8px var(--shadow-color);
+    font-size: 1rem;
+    color: var(--color-primary-600);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.articulo-regalos b {
+    color: var(--color-secondary);
+    font-weight: 600;
+}
+
+.articulo-regalos span {
+    font-weight: 500;
+    color: var(--color-text);
+}
+
+@media (max-width: 480px) {
+    .articulo-regalos {
+        padding: 14px 6px;
+        max-width: 98vw;
+    }
+
+    .articulo-regalos li {
+        font-size: 0.95rem;
+        padding: 8px 6px;
+    }
+}
+
 /* Confirmación de asistencia */
 .confirmacion-asistencia {
     background: var(--color-fondo-transparente);
@@ -875,3 +940,9 @@ p {
 .titulo-religioso {
     text-align: center;
 }
+
+
+
+
+/* Estilos para la sección de regalos */
+/

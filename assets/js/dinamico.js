@@ -353,41 +353,19 @@ class BodaDinamica {
         this.actualizarTexto('[data-regalo="titulo"]', regalos.titulo);
         this.actualizarTexto('[data-regalo="mensaje"]', regalos.mensaje);
 
-        // Transferencias bancarias
-        const contenedorTransferencias = document.querySelector('[data-regalo="transferencias"]');
-        if (contenedorTransferencias && regalos.metodosPago.transferencia) {
-            let htmlTransferencias = `<h4>${regalos.metodosPago.transferencia.titulo}</h4>`;
-            regalos.metodosPago.transferencia.bancos.forEach(banco => {
-                htmlTransferencias += `
-                    <div class="banco-info">
-                        <strong>${banco.nombre}:</strong> ${banco.cuenta}<br>
-                        <em>${banco.titular}</em>
-                    </div>
-                `;
-            });
-            contenedorTransferencias.innerHTML = htmlTransferencias;
+        // Mostrar datos de regalos en spans personalizados
+        if (regalos.metodosPago && regalos.metodosPago.bcpGuillermo) {
+            this.actualizarTexto('[data-regalo="bcp-guillermo"]', regalos.metodosPago.bcpGuillermo.cuenta);
+            this.actualizarTexto('[data-regalo="cci-guillermo"]', regalos.metodosPago.bcpGuillermo.cci);
+            this.actualizarTexto('[data-regalo="yape-guillermo"]', regalos.metodosPago.bcpGuillermo.yape);
+            this.actualizarTexto('[data-regalo="titular-guillermo"]', regalos.metodosPago.bcpGuillermo.titular);
         }
-
-        // Billeteras digitales
-        const contenedorBilleteras = document.querySelector('[data-regalo="billeteras"]');
-        if (contenedorBilleteras && regalos.metodosPago.billeteras) {
-            let htmlBilleteras = `<h4>${regalos.metodosPago.billeteras.titulo}</h4>`;
-            regalos.metodosPago.billeteras.opciones.forEach(opcion => {
-                htmlBilleteras += `
-                    <div class="billetera-info">
-                        <strong>${opcion.tipo}:</strong> ${opcion.numero}<br>
-                        <em>${opcion.titular}</em>
-                    </div>
-                `;
-            });
-            contenedorBilleteras.innerHTML = htmlBilleteras;
+        if (regalos.metodosPago && regalos.metodosPago.bcpEvelin) {
+            this.actualizarTexto('[data-regalo="bcp-evelin"]', regalos.metodosPago.bcpEvelin.cuenta);
+            this.actualizarTexto('[data-regalo="cci-evelin"]', regalos.metodosPago.bcpEvelin.cci);
+            this.actualizarTexto('[data-regalo="yape-evelin"]', regalos.metodosPago.bcpEvelin.yape);
+            this.actualizarTexto('[data-regalo="titular-evelin"]', regalos.metodosPago.bcpEvelin.titular);
         }
-
-        // Confirmación de asistencia
-        this.actualizarTexto('[data-confirmacion="titulo"]', regalos.confirmacion.titulo);
-        this.actualizarTexto('[data-confirmacion="mensaje"]', regalos.confirmacion.mensaje);
-        this.actualizarTexto('[data-confirmacion="accion"]', regalos.confirmacion.accion);
-        this.actualizarTexto('[data-confirmacion="despedida"]', regalos.confirmacion.despedida);
     }
 
     actualizarTextos() {

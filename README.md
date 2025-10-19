@@ -1,25 +1,41 @@
-boda 2 
-"Uno solo puede ser vencido, pero dos pueden resistir. La cuerda de tres hilos no se rompe fácilmente".
+"Uno solo puede ser vencido, pero dos pueden resistir.
+La cuerda de tres hilos no se rompe fácilmente."
 Eclesiastés 4:12
-
 
 Guillermo y Evelin
 
+Con la bendición de Dios y de nuestros padres:
 
-Con la bendición de Dios y nuestros padres:
+Felix Bellido Taipe & Eusebia Yauyo Nahui
+Juan Luis Yauri & Leandra Díaz Espinoza
 
+Tenemos el agrado de invitarlos a compartir la celebración de nuestra boda.
 
-Felix Bellido Taipe 
-Eusebia Yauyo Nahui
+Sábado 22 de Noviembre de 2025
 
-Juan Luis Yauri
-Leandra Diaz Espinoza
+Ceremonia Civil:
+Municipalidad del Agustino – 11:30 a.m.
 
-Tenemos el agrado de hacerles partícipes de la celebración de Nuestra Boda.
+Ceremonia Religiosa:
+Parroquia Santa Magdalena Sofía
+Barai, Av. Garcilaso de la Vega N° 400 – 4:30 p.m.
+Padrinos: Teófilo Chávez Auccasi & Antonia Luispe Yauri
 
-Sábado 22 de Noviembre 2025
+Recepción:
+Salón de Recepciones Líder's, 3er piso
+Av. Riva Agüero N° 1454, El Agustino – 7:00 p.m.
 
-Ceremonia Civil: Municipalidad del agustino hor 11:30 am ceremonia religiosa Parroquia Santa Magdalena Sofia barai av garcilaso de la vega n° 400 hora 4:30 pm Padrinos Teófilo Chávez Auccasi Antonia luispe Yauri
+Amamos a los niños, pero en esta ocasión especial la celebración será solo para adultos.
 
+Código de vestimenta: Elegante
+Colores restringidos: Blanco y rojo
 
-Recepcion despues de la ceremonia, te invitamos a seguir festejando con nosotros saloin de recepciones lider´s 3er piso av riva aguero nro 1454 el agustino hora 7:00pm Amamos a los niños pero en esta ocacion especial la celebracion será solo para adultos. Codigo de vestimenta: elegante colroes restringios: blanco y rojo gracias tu precencia es nuetro mejor regalo, pero si deseas tener un detalle con nosotros. lo sabremos apreciar con mucho cariño. bcp soles: 191 08174583 053 cci: 00219110817458305358 yape 953877562 guillermo bellido yauyo cuenta bcp soles: 19171333140075 yape 932 772 056 evelin  quispe diaz
+Tu presencia es nuestro mejor regalo.
+Si deseas tener un detalle con nosotros, lo apreciaremos con mucho cariño:
+
+BCP Soles: 191 08174583 053
+CCI: 00219110817458305358
+Yape: 953 877 562 – Guillermo Bellido Yauyo
+
+BCP Soles: 19171333140075
+Yape: 932 772 056 – Evelin Quispe Díaz
