@@ -108,7 +108,7 @@ class BodaDinamica {
         // Nombres en títulos principales
         this.actualizarTexto('[data-nombre="titulo-pareja"]', pareja.nombreCompleto);
         this.actualizarTexto('[data-nombre="iniciales"]', pareja.iniciales);
-        this.actualizarTexto('[data-nombre="nombres-firma"]', `${pareja.novio} & ${pareja.novia} `);
+        this.actualizarTexto('[data-nombre="nombres-firma"]', `${pareja.novio} y ${pareja.novia} `);
 
         // Fallback para elementos sin data attributes
         const titulosPrincipales = document.querySelectorAll('.titulo');
