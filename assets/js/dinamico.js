@@ -108,7 +108,7 @@ class BodaDinamica {
         // Nombres en títulos principales
         this.actualizarTexto('[data-nombre="titulo-pareja"]', pareja.nombreCompleto);
         this.actualizarTexto('[data-nombre="iniciales"]', pareja.iniciales);
-        this.actualizarTexto('[data-nombre="nombres-firma"]', `${pareja.novia} & ${pareja.novio}`);
+        this.actualizarTexto('[data-nombre="nombres-firma"]', `${pareja.novio} & ${pareja.novia} `);
 
         // Fallback para elementos sin data attributes
         const titulosPrincipales = document.querySelectorAll('.titulo');
@@ -339,9 +339,21 @@ class BodaDinamica {
             enlaceConfirmacion.href = asistencia.urlFormulario;
         }
 
+        // Configurar botón de WhatsApp
+        const whatsappBtn = document.getElementById('whatsappBtn');
+        if (whatsappBtn && asistencia.whatsapp) {
+            const mensaje = encodeURIComponent(asistencia.whatsapp.mensaje);
+            const numeroLimpio = asistencia.whatsapp.numero.replace(/\D/g, ''); // Remover todo excepto números
+            const urlWhatsapp = `https://wa.me/${numeroLimpio}?text=${mensaje}`;
+
+            whatsappBtn.href = urlWhatsapp;
+            whatsappBtn.target = '_blank';
+            whatsappBtn.rel = 'noopener';
+        }
+
         // Fallback
         const enlaceFallback = document.querySelector('a[href*="forms.gle"]');
-        if (enlaceFallback) {
+        if (enlaceFallback && !enlaceFallback.hasAttribute('data-asistencia')) {
             enlaceFallback.href = asistencia.urlFormulario;
         }
     }
@@ -413,6 +425,7 @@ class BodaDinamica {
         this.actualizarTexto('[data-texto="vestimenta-titulo"]', textos.vestimenta.titulo);        // Asistencia
         this.actualizarTexto('[data-texto="confirmacion-titulo"]', textos.asistencia.confirmacionTitulo);
         this.actualizarTexto('[data-texto="boton-confirmar"]', textos.asistencia.botonConfirmar);
+        this.actualizarTexto('[data-texto="boton-whatsapp"]', textos.asistencia.botonWhatsapp);
         this.actualizarTexto('[data-texto="sin-ninos-titulo"]', textos.asistencia.sinNinosTitulo);
         this.actualizarTexto('[data-texto="sin-ninos-mensaje"]', textos.asistencia.sinNinosMensaje);
 
@@ -420,6 +433,12 @@ class BodaDinamica {
         const botonAsistencia = document.querySelector('[data-asistencia="enlace"]');
         if (botonAsistencia && botonAsistencia.hasAttribute('data-texto')) {
             botonAsistencia.textContent = textos.asistencia.botonConfirmar;
+        }
+
+        // Botón de WhatsApp
+        const botonWhatsapp = document.getElementById('whatsappBtn');
+        if (botonWhatsapp && botonWhatsapp.hasAttribute('data-texto')) {
+            botonWhatsapp.innerHTML = `<i class="fab fa-whatsapp" style="margin-right: 8px;"></i>${textos.asistencia.botonWhatsapp}`;
         }
 
         // Regalos

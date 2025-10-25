@@ -12,11 +12,11 @@
     "padres": {
         "novio": {
             "padre": "Felix Bellido Taipe",
-            "madre": "Eusebia Yauyo Nahui",
+            "madre": "Eusebia Yauyo Ñahui",
             "titulo": "Padres de Guillermo"
         },
         "novia": {
-            "padre": "Juan Luis Yauri",
+            "padre": "Juan Quispe Yauri",
             "madre": "Leandra Diaz Espinoza",
             "titulo": "Padres de Evelin"
         }
@@ -25,7 +25,7 @@
         "religioso": [
             {
                 "padrino": "Teófilo Chávez Auccasi",
-                "madrina": "Antonia Luispe Yauri",
+                "madrina": "Antonia Quispe Yauri",
                 "titulo": "Padrinos de Ceremonia Religiosa"
             }
         ],
@@ -97,6 +97,11 @@
         "restriccionColores": "Blanco y rojo restringidos"
     },
     "asistencia": {
+        "urlFormulario": "https://forms.gle/A4tdPC3aa6ufpJ2Y8",
+        "whatsapp": {
+            "numero": "+51932772056",
+            "mensaje": "¡Hola! Confirmo mi asistencia a la boda de Guillermo y Evelin el 22 de noviembre de 2025. ¡No puedo esperar a celebrar con ustedes!"
+        },
         "sinNinos": {
             "titulo": "SOLO ADULTOS",
             "mensaje": "Amamos a los niños, pero en esta ocasión especial la celebración será solo para adultos."
@@ -165,6 +170,7 @@
         "asistencia": {
             "confirmacionTitulo": "CONFIRMACIÓN DE ASISTENCIA",
             "botonConfirmar": "Confirmar asistencia",
+            "botonWhatsapp": "Confirmar por WhatsApp",
             "sinNinosTitulo": "SOLO ADULTOS",
             "sinNinosMensaje": "Amamos a los niños pero en esta ocasión especial la celebración será solo para adultos."
         },

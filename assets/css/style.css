@@ -941,8 +941,41 @@ p {
     text-align: center;
 }
 
+/* Estilos específicos para botón de WhatsApp */
+#whatsappBtn {
+    background-color: #25D366 !important;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+#whatsappBtn:hover {
+    background-color: #1da851 !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+}
 
+#whatsappBtn:active {
+    transform: translateY(0);
+}
+
+/* Responsive para botones de confirmación */
+@media (max-width: 480px) {
+    .boton1 {
+        font-size: 14px;
+        padding: 12px 16px;
+        margin: 5px auto;
+        display: block;
+        width: 90%;
+        text-align: center;
+    }
+    
+    #whatsappBtn {
+        max-width: 90%;
+    }
+}
 
 /* Estilos para la sección de regalos */
-/
