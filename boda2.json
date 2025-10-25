@@ -1,0 +1,184 @@
+{
+    "pareja": {
+        "novio": "Faustino Lobato Saavedra",
+        "novia": "Jaquelin Ana Ramos Sifuentes",
+        "iniciales": "F & J",
+        "nombreCompleto": "Faustino y Jaquelin"
+    },
+    "versiculo": {
+        "texto": "Uno solo puede ser vencido, pero dos pueden resistir. La cuerda de tres hilos no se rompe fácilmente.",
+        "referencia": "Eclesiastés 4:12"
+    },
+    "padres": {
+        "novio": {
+            "padre": "Sergio Lobato Rodriguez",
+            "madre": "Maria Eugenia Saavedra Mego",
+            "titulo": "Padres de Faustino"
+        },
+        "novia": {
+            "padre": "Saul Ramos Vallejos",
+            "madre": "Marina Sifuentes Flores",
+            "titulo": "Padres de Jaquelin"
+        }
+    },
+    "padrinos": {
+        "religioso": [
+            {
+                "padrino": "aun",
+                "madrina": "aun",
+                "titulo": "Padrinos de Ceremonia Religiosa"
+            }
+        ],
+        "aros": {
+            "padrino": "",
+            "madrina": "",
+            "titulo": ""
+        }
+    },
+    "fecha": {
+        "fechaEvento": "December 13, 2025 11:30:00",
+        "fechaTexto": "13 de diciembre",
+        "año": "2025"
+    },
+    "ceremonias": [
+        {
+            "tipo": "religiosa",
+            "titulo": "Ceremonia Religiosa",
+            "hora": "7:00 pm",
+            "lugar": "Iglesia Dentro del cuartel - pendiente",
+            "direccion": "XXC4+QCW Rímac",
+            "icono": "iglesia.svg",
+            "link": "https://www.google.com/maps/place/12%C2%B001'40.9%22S+77%C2%B002'38.1%22W/@-12.0280218,-77.0464821,1337m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d-12.0280218!4d-77.0439072?hl=es&entry=ttu&g_ep=EgoyMDI1MTAxNC4wIKXMDSoASAFQAw%3D%3D"
+        }
+    ],
+    "recepcion": {
+        "titulo": "Recepción",
+        "mensaje": "Después de la ceremonia te invitamos a seguir festejando con nosotros.",
+        "nombre": "aun",
+        "lugar": "aun 3er piso",
+        "direccion": "Av. Riva Agüero N° 1454, El Agustino",
+        "hora": "8:00 pm",
+        "icono": "recepcion.svg",
+        "link": "https://www.google.com/maps/place/11%C2%B059'18.5%22S+77%C2%B003'32.0%22W/@-11.9884691,-77.0614662,1337m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d-11.9884691!4d-77.0588913?hl=es&entry=ttu&g_ep=EgoyMDI1MTAxNC4wIKXMDSoASAFQAw%3D%3D"
+    },
+    "itinerario": [
+        {
+            "evento": "Ceremonia Religiosa",
+            "hora": "7:00 pm",
+            "lugar": "Parroquia Santa Magdalena Sofia Barai",
+            "icono": "iglesia.svg"
+        },
+        {
+            "evento": "Recepción",
+            "hora": "8:00 pm",
+            "lugar": "Salón de Recepciones Lider's 3er piso",
+            "icono": "recepcion.svg"
+        }
+    ],
+    "vestimenta": {
+        "tipo": "Elegante",
+        "damas": "Vestido elegante",
+        "caballeros": "Traje formal",
+        "restriccionColores": "elegante"
+    },
+    "asistencia": {
+        "sinNinos": {
+            "titulo": "SOLO ADULTOS",
+            "mensaje": "Amamos a los niños, pero en esta ocasión especial la celebración será solo para adultos."
+        }
+    },
+    "regalos": {
+        "titulo": "Sugerencia de regalos",
+        "mensaje": "Tu presencia es nuestro mejor regalo, pero si deseas tener un detalle con nosotros lo sabremos apreciar con mucho cariño.",
+        "metodosPago": {
+            "bcpGuillermo": {
+                "banco": "BCP",
+                "cuenta": "191 08174583 053",
+                "cci": "00219110817458305358",
+                "yape": "953877562",
+                "titular": "Guillermo Bellido Yauyo"
+            },
+            "bcpJaqueline": {
+                "banco": "BCP",
+                "cuenta": "19171333140075",
+                "yape": "932772056",
+                "titular": "Jaqueline Quispe Diaz"
+            }
+        },
+        "confirmacion": {
+            "titulo": "Confirmar Asistencia",
+            "mensaje": "Tu presencia es importante para nosotros.",
+            "accion": "Confirma Aquí!",
+            "despedida": "Te esperamos!"
+        }
+    },
+    "metadatos": {
+        "titulo": "Invitación Boda Guillermo y Jaqueline",
+        "descripcion": "Tenemos el agrado de invitarte a la celebración de nuestra boda.",
+        "ogImage": "",
+        "ogUrl": ""
+    },
+    "textos": {
+        "invitacion": {
+            "tituloPrincipal": "¡Nos Casamos!",
+            "nosCasamos": "Nos casamos",
+            "clickParaAbrir": "Click para abrir la invitación",
+            "bendicion": "Con la bendición de Dios y nuestros padres:",
+            "nosotros": "Guillermo y Jaqueline",
+            "invitacionMensaje": "Tenemos el agrado de invitarte a celebrar nuestra unión en matrimonio.",
+            "presionaCorazon": "Presiona el ♡ para Nuestra canción",
+            "soloFaltan": "¡Solo faltan!"
+        },
+        "contador": {
+            "dias": "Días",
+            "horas": "Horas",
+            "minutos": "Minutos",
+            "segundos": "Segundos"
+        },
+        "vestimenta": {
+            "titulo": "CÓDIGO DE VESTIMENTA"
+        },
+        "ceremonia": {
+            "verUbicacion": "Ver ubicación"
+        },
+        "recepcion": {
+            "verUbicacion": "Ver ubicación"
+        },
+        "itinerario": {
+            "titulo": "Itinerario del Evento"
+        },
+        "asistencia": {
+            "confirmacionTitulo": "CONFIRMACIÓN DE ASISTENCIA",
+            "botonConfirmar": "Confirmar asistencia",
+            "sinNinosTitulo": "SOLO ADULTOS",
+            "sinNinosMensaje": "Amamos a los niños pero en esta ocasión especial la celebración será solo para adultos."
+        },
+        "regalos": {
+            "titulo": "Sugerencia de regalos",
+            "mensaje": "Tu presencia es el mejor regalo que podemos recibir. Si deseas tener un detalle con nosotros, lo sabremos apreciar con mucho cariño.",
+            "botonVerMas": "Ver más",
+            "codigoNovios": "Código de novios",
+            "cuentaBanco": "Mi cuenta",
+            "botonConfirmar": "Confirmar regalo"
+        },
+        "agradecimiento": {
+            "esperamos": "Esperamos contar con tu presencia en este día tan especial para nosotros.<br> Con cariño,",
+            "gracias": "¡Muchas gracias!"
+        }
+    },
+    "medios": {
+        "audio": {
+            "tipo": "youtube",
+            "url": "https://www.youtube.com/watch?v=xjeHThBHTCs",
+            "videoId": "xjeHThBHTCs",
+            "titulo": "Nuestra Canción"
+        },
+        "imagenes": {
+            "portada": "assets/images/carta.png",
+            "separador1": "assets/images/2.png",
+            "separador2": "assets/images/3.png",
+            "separador3": "assets/images/5.png",
+            "fondo1": "assets/images/1.png"
+        }
+    }
+}

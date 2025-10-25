@@ -1,9 +1,9 @@
 :root {
     /* Paleta principal (fácil de sobrescribir) */
-    --color-primary: #28446b;
+    --color-primary: #583823;
     /* color principal de títulos/acento */
     --color-primary-600: #0748a1;
-    --color-secondary: #466aa1;
+    --color-secondary: #583823;
     /* uso secundario */
     --color-accent: #f5e6c4;
     /* acentos suaves */

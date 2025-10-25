@@ -47,7 +47,8 @@
             "hora": "11:30 am",
             "lugar": "Municipalidad del Agustino",
             "direccion": "El Agustino",
-            "icono": "ceremonia.svg"
+            "icono": "ceremonia.svg",
+            "mapa": "https://maps.app.goo.gl/2dYKvNTapdZcp9W16?g_st=awb"
         },
         {
             "tipo": "religiosa",
@@ -55,7 +56,8 @@
             "hora": "4:30 pm",
             "lugar": "Parroquia Santa Magdalena Sofia Barai",
             "direccion": "Av. Garcilaso de la Vega N° 400",
-            "icono": "iglesia.svg"
+            "icono": "iglesia.svg",
+            "mapa": "https://maps.app.goo.gl/zgnbw8k1MfMH1VWS8?g_st=awb"
         }
     ],
     "recepcion": {
@@ -65,7 +67,8 @@
         "lugar": "Salón de Recepciones Lider's 3er piso",
         "direccion": "Av. Riva Agüero N° 1454, El Agustino",
         "hora": "7:00 pm",
-        "icono": "recepcion.svg"
+        "icono": "recepcion.svg",
+        "mapa": "https://maps.app.goo.gl/QnX8behB9RUzHF5V6?g_st=awb"
     },
     "itinerario": [
         {

@@ -240,7 +240,7 @@ class BodaDinamica {
             // Actualizar enlace del mapa
             const enlaceMapa = document.querySelector(`[data-ceremonia-mapa="${index}"]`);
             if (enlaceMapa) {
-                enlaceMapa.href = ceremonia.urlMapa;
+                enlaceMapa.href = ceremonia.mapa;
             }
         });
     }
@@ -258,7 +258,7 @@ class BodaDinamica {
         // Actualizar enlace del mapa
         const enlaceMapa = document.querySelector('[data-recepcion="mapa"]');
         if (enlaceMapa) {
-            enlaceMapa.href = recepcion.urlMapa;
+            enlaceMapa.href = recepcion.mapa;
         }
     }
 
